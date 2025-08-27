@@ -5,14 +5,14 @@
 -- genre: optional genre of the book
 -- published_year: year the book was published
 -- is_available: status if the book is available, defaults to TRUE (available)
-/* CREATE TABLE Books (
+ CREATE TABLE Books (
 	book_id SERIAL PRIMARY KEY,
 	title VARCHAR(255) NOT NULL,
 	aUthor VARCHAR(255) NOT NULL,
 	genre VARCHAR(100),
 	published_year DATE,
 	is_available BOOLEAN DEFAULT TRUE
-); */
+);
 
 -- Create the Members table with the following columns:
 -- member_id: unique identifier for each member, auto-incremented, primary key
